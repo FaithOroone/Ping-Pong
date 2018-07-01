@@ -3,20 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>PINGPONG</title>
-    <link rel="stylesheet" href="/css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="/css/styles.css" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body><!--starts a body-->
     <h1>PINGPONG</h1>
     <div class="container"><!--start of container-->
       <div class="row"><!--start of row-->
         <div class="col-xs-12 col-md-12"><!--start of col-->
-          <form class="number"action="index.html" method="post">
+          <form class="number" id="num-form" action="index.html" method="post">
             <div class="form-group">
               <label for="user_input">Number</label>
-              <input type="number" class="form-control" placeholder="Enter a number" id="Number-input">
+              <input type="number" class="form-control" placeholder="Enter a number" id="NumberInput">
             </div>
-            <button type="submit" class="btn btn-primary">Send Reply</button>
+            <button type="submit" id="numResult" class="btn btn-primary">Send Reply</button>
           </form>
         </div><!--closes a col-->
       </div><!--close of container-->
