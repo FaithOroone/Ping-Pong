@@ -17,7 +17,7 @@ Example output: pingpong
 Example input: 2
 Example output: pingpong
 ## Setup/Installation Requirements
-follow the link to clone the project on your computer then run it in any browser of your choice
+follow the link https://github.com/FaithOroone/ping-pong to clone the project on your computer then run it in any browser of your choice
 ## Known Bugs
 No Bugs yet.
 ## Technologies Used

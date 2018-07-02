@@ -7,21 +7,42 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body><!--starts a body-->
-    <h1>PINGPONG</h1>
-    <div class="container"><!--start of container-->
-      <div class="row"><!--start of row-->
-        <div class="col-xs-12 col-md-12"><!--start of col-->
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <h1>PING PONG</h1>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    <div class="container-fluid" >
+        <div class="row">
+          <div class="col-md-2">
+            <div class="About">
+           <img src="images/logo.png" class="img-responsive" alt="">
+           <h3>ABOUT PING PONG</h3>
+           <h5>Created By:</h5>
+           <h6>ORONE FAITH EUNICE</h6>
+           <h5>GitHub Username/URL:</h5>
+           <h6><a href="https://github.com/FaithOroone/ping-pong.git">Oronefaith</a></h6>
+           <h5>Independent Project 3:</h5>
+           <h6>Javascript Arrays and Loops</h6>
+            </div>
+          </div>
+        <div class="col-md-10" id="form"><!--start of col-->
           <form class="number" id="num-form" action="index.html" method="post">
             <div class="form-group">
               <label for="user_input">Number</label>
               <input type="number" class="form-control" placeholder="Enter a number" id="NumberInput">
             </div>
-            <button type="submit" class="btn btn-primary">Send Reply</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
           </form>
           <ul id="numResult"></ul>
         </div><!--closes a col-->
-      </div><!--close of container-->
-    </div><!--close of container-->
+      </div>
+    </div>
     <script   src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
   </body><!--closes a body-->

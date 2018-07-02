@@ -17,6 +17,7 @@ var counter = function(UserInput){
 //frontend logic
 $(document).ready(function(){
   $("#num-form").submit(function(event){
+    event.preventDefault();
     var user_input = parseInt($("#NumberInput").val());
 
     var Results = counter(user_input); //stores the input and creates a function
@@ -24,6 +25,7 @@ $(document).ready(function(){
     Results.forEach(function(result){//adds results in a list
       $("#numResult").append("<li>"+ result + "</li>");
     });
-    event.preventDefault();
+    $("#NumberInput").val("");
+
   });
 });
