@@ -1,8 +1,17 @@
+h1{
+  font-family: sans-serif;
+  text-align: center;
+  color: red;
+}
 .about {
   padding: 30px 80px 0 80px;
 }
-
-
+.ping{
+  background-image: url(../images/bg2.jpeg);
+}
+.jumbotron{
+  background-color: #007eff;
+}
 .btn {
   padding: 10px 20px;
   background-color: blue;
@@ -17,7 +26,6 @@
   color: black;
 }
 #form{
-  background-image: url(../images/bg1.jpeg);
   height: 150px;
   width:200px%;
 }
@@ -27,4 +35,8 @@ input{
 }
 .About{
   background-color: #00dcff;
+  border-color: 1px solid yellow;
+}
+li{
+  color: black;
 }
